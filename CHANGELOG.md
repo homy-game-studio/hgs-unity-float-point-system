@@ -1,3 +1,10 @@
+# 1.0.0 (2021-06-15)
+
+
+### Features
+
+* primeira versao ([9b026a6](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/9b026a69cdd9af63253a973e8b6d8dfdd80b9d27))
+
 # [1.1.0](https://github.com/homy-game-studio/hgs-upm-template/compare/v1.0.0...v1.1.0) (2021-06-10)
 
 
