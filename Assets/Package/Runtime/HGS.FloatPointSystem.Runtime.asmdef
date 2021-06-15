@@ -1,0 +1,16 @@
+{
+    "name": "HGS.FloatPointSystem.Runtime",
+    "references": [
+        "GUID:a3ce0232b4ca3f74aa25a41b93098c33",
+        "GUID:b85a9b696dea92b4f9d0efe8b3f0e5b7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

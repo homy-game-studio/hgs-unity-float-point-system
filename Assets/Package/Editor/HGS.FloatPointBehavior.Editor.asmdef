@@ -1,0 +1,17 @@
+{
+    "name": "HGS.FloatPointBehavior.Editor",
+    "references": [
+        "GUID:c0e7d6f0522a21f41aa58c17f40534ab"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
