@@ -11,11 +11,11 @@ namespace HGS.FloatPointSystem
 
     public class FloatPointStagging : MonoBehaviour
     {
-        Camera m_mainCamera = null;
+        Camera _mainCamera = null;
 
         private void Start()
         {
-            m_mainCamera = Camera.main;    
+            _mainCamera = Camera.main;    
         }
 
         private void OnMouseDown()

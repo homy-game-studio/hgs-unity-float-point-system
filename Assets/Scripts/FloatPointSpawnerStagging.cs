@@ -5,20 +5,20 @@ namespace HGS.FloatPointSystem
     public class FloatPointSpawnerStagging : MonoBehaviour
     {
         [SerializeField] float spawnRate = 0.1f;
-        Camera m_mainCamera = null;
-        float m_currentSpawnTime = 0;
+        Camera _mainCamera = null;
+        float _currentSpawnTime = 0;
 
         private void Start()
         {
-            m_mainCamera = Camera.main;
+            _mainCamera = Camera.main;
         }
 
         private void Update()
         {
-            m_currentSpawnTime += Time.deltaTime;
-            if (m_currentSpawnTime >= spawnRate)
+            _currentSpawnTime += Time.deltaTime;
+            if (_currentSpawnTime >= spawnRate)
             {
-                m_currentSpawnTime = 0;
+                _currentSpawnTime = 0;
                 Spawn();
             }
         }
