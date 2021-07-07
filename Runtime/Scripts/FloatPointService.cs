@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using HGS.SharedUtils;
 using DG.Tweening;
 using System;
+using TMPro;
 
 namespace HGS.FloatPointSystem
 {
@@ -42,7 +42,7 @@ namespace HGS.FloatPointSystem
             GameObject go = PooledObject.Instance.InstantiatePooled(effect.prefab, position, Quaternion.identity, canvasT);
 
             RectTransform rect = go.GetComponent<RectTransform>();
-            Text textComponent = go.GetComponent<Text>();
+            TMP_Text textComponent = go.GetComponent<TMP_Text>();
 
             // Adiciona a mensagem
             textComponent.text = message;
