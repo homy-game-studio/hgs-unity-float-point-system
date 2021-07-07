@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "com.hgs.shared-utils": "https://github.com/homy-game-studio/hgs-unity-shared-utils.git#1.1.2",
-    "com.demigiant.dotween": "1.2.42"
+    "com.demigiant.dotween": "1.2.42",
+    "com.unity.textmeshpro": "3.0.6"
   }
 }

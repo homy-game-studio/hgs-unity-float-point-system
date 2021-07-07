@@ -12,15 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2324f6da326068d408d49939976cb1a6, type: 3}
   m_Name: FloatPointSettings
   m_EditorClassIdentifier: 
-  canvasPrefab: {fileID: 7083840071781812118, guid: 26e362881bd0df747827ed90fbba33bd,
-    type: 3}
+  canvasPrefab: {fileID: 7083840071781812118, guid: 26e362881bd0df747827ed90fbba33bd, type: 3}
   effects:
   - effectId: DAMAGE
-    prefab: {fileID: 109598419993774753, guid: 2257d9e05792f0d4aa0f034a519bf920, type: 3}
+    prefab: {fileID: 8019405546853515591, guid: 8ee940cec75d80744a28d66770cc5c70, type: 3}
   - effectId: CRITICAL
-    prefab: {fileID: 109598419993774753, guid: 5486926e30fd05547ab1c77727a03d0a, type: 3}
+    prefab: {fileID: 1297444018971821463, guid: aa46bf3ff625b384d969f8f42012d12e, type: 3}
   - effectId: HEAL
-    prefab: {fileID: 109598419993774753, guid: 8557fc732a916574fa7308d795f5e288, type: 3}
+    prefab: {fileID: 1924881632295843259, guid: 612110575c1d400488f34d1ba860df3d, type: 3}
   animationDuration: 1
   offsetY: 200
   offsetX: 150
