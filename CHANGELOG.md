@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/homy-game-studio/hgs-unity-float-point-system/compare/v1.0.0...v1.1.0) (2021-07-08)
+
+
+### Features
+
+* atualiza scripts de stagging ([9b63af5](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/9b63af5202c36043567bc84f5871a6a3b2e313a0))
+
 # 1.0.0 (2021-06-15)
 
 
