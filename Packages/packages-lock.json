@@ -15,11 +15,11 @@
       "url": "https://package.openupm.com"
     },
     "com.hgs.shared-utils": {
-      "version": "https://github.com/homy-game-studio/hgs-unity-shared-utils.git#1.1.2",
+      "version": "https://github.com/homy-game-studio/hgs-unity-shared-utils.git#3.0.0",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "006d9b006cbf582b2336425799336dc12ea39bde"
+      "hash": "97efab844b07dc8a1431d390fbb09729c5e7b0dc"
     },
     "com.unity.collab-proxy": {
       "version": "1.11.2",
