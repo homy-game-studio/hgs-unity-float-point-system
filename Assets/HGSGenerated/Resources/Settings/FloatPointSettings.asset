@@ -9,17 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2324f6da326068d408d49939976cb1a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b7489a454b743f0b7def87cd9d3913f, type: 3}
   m_Name: FloatPointSettings
   m_EditorClassIdentifier: 
-  canvasPrefab: {fileID: 7083840071781812118, guid: 26e362881bd0df747827ed90fbba33bd, type: 3}
+  canvasPrefab: {fileID: 7083840071781812118, guid: c2c47748e9154d8ebd98585ac0f4b2ae, type: 3}
   effects:
   - effectId: DAMAGE
-    prefab: {fileID: 8019405546853515591, guid: 8ee940cec75d80744a28d66770cc5c70, type: 3}
+    prefab: {fileID: 8019405546853515591, guid: 7542ab9544ba45b0b069ac1777760fd2, type: 3}
   - effectId: CRITICAL
-    prefab: {fileID: 1297444018971821463, guid: aa46bf3ff625b384d969f8f42012d12e, type: 3}
+    prefab: {fileID: 1297444018971821463, guid: 352bd294a672495891ce6787e97059fb, type: 3}
   - effectId: HEAL
-    prefab: {fileID: 1924881632295843259, guid: 612110575c1d400488f34d1ba860df3d, type: 3}
+    prefab: {fileID: 1924881632295843259, guid: 4b115831e6944dcca7b7079325f61a8e, type: 3}
   animationDuration: 1
   offsetY: 200
   offsetX: 150
