@@ -1,7 +1,8 @@
 {
     "name": "HGS.FloatPointBehavior.Editor",
+    "rootNamespace": "",
     "references": [
-        "GUID:c0e7d6f0522a21f41aa58c17f40534ab"
+        "GUID:b2506f7084b5480a8c9215b979627d53"
     ],
     "includePlatforms": [
         "Editor"
