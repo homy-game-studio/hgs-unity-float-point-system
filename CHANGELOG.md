@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/homy-game-studio/hgs-unity-float-point-system/compare/v1.1.0...v2.0.0) (2021-10-22)
+
+
+### Bug Fixes
+
+* corrige meta files ([583798d](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/583798d0b5a14484129175da5f2582d25f24e9ce))
+
+
+### BREAKING CHANGES
+
+* corrige meta files
+
 # [1.1.0](https://github.com/homy-game-studio/hgs-unity-float-point-system/compare/v1.0.0...v1.1.0) (2021-07-08)
 
 
