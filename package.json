@@ -1,6 +1,6 @@
 {
   "name": "com.hgs.float-point-system",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "displayName": "Float Point Behaviour",
   "description": "Instancie facilmente pontos flutantes de UI/Text customizados.",
   "unity": "2020.1",
