@@ -1,6 +1,6 @@
 {
   "name": "com.hgs.float-point-system",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "displayName": "HGS Float Point",
   "description": "Add float points based on Scriptable Objects",
   "unity": "2020.1",

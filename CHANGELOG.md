@@ -1,3 +1,20 @@
+# [2.1.0](https://github.com/homy-game-studio/hgs-unity-float-point-system/compare/v2.0.0...v2.1.0) (2023-01-30)
+
+
+### Bug Fixes
+
+* Rename package displayName ([ee2a5d7](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/ee2a5d7f5eaa6a3ae38405e2b9b0230bf238d54a))
+* Stagging materials ([dd7ab54](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/dd7ab548214852cfab2072591a288d293c9f0492))
+
+
+### Features
+
+* Add docs ([7ebdc96](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/7ebdc962cb0716fa8d2b20f44994d5a102ee86a9))
+* Add editor scripts ([f0ced0b](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/f0ced0bb3f5efd9babe507154d80edc7e1e75ff3))
+* Add FloatPointAsset ([2a2ab78](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/2a2ab786e412a53c1b50c821e9a9067356f6f4c2))
+* Add FloatPointPlayer ([0384fd1](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/0384fd14a8022280e953806cc97a03bf44cb6c94))
+* Add sorting layer attribute ([2a51d24](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/2a51d24c62e0ec464372c2d1e9b2c675be491b6b))
+
 # [2.0.0](https://github.com/homy-game-studio/hgs-unity-float-point-system/compare/v1.1.0...v2.0.0) (2021-10-22)
 
 
