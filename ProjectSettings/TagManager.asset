@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Character
+    uniqueID: 1674054343
+    locked: 0
+  - name: FloatPoint
+    uniqueID: 3942979971
+    locked: 0
