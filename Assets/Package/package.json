@@ -1,21 +1,18 @@
 {
   "name": "com.hgs.float-point-system",
   "version": "2.0.0",
-  "displayName": "Float Point Behaviour",
-  "description": "Instancie facilmente pontos flutantes de UI/Text customizados.",
+  "displayName": "HGS Float Point",
+  "description": "Add float points based on Scriptable Objects",
   "unity": "2020.1",
   "keywords": [
     "Float",
-    "Point",
-    "Behaviour"
+    "Point"
   ],
   "author": {
     "name": "Homy Game Studio",
     "email": "contato@homygamestudio.com"
   },
   "dependencies": {
-    "com.hgs.shared-utils": "https://github.com/homy-game-studio/hgs-unity-shared-utils.git#3.0.0",
-    "com.demigiant.dotween": "1.2.42",
     "com.unity.textmeshpro": "3.0.6"
   }
 }
