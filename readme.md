@@ -1,38 +1,90 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![openupm](https://img.shields.io/npm/v/com.hgs.hgs-unity-float-point-system?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.hgs.hgs-unity-float-point-system/)
 
-## Convenção de Package Name
-A documetnação do Unity recomenda uma convensão especifica para nomes de packages.:
+# Introduction
+The **HGS Float Point** implements a `TextMeshPro` pool to show feedbacks in your scene.
 
-> Comece com `com.<company-name>`. Por exemplo, um dos pacotes oficiais do Unity é `com.unity.timeline`. 
+# Usage
 
-Para mais detalhes acesse a [documentação](https://docs.unity3d.com/2020.1/Documentation/Manual/cus-naming.html).
+1) Click in `+` button in `Project` window, and go to `HGS > FloatPoint > Asset`.
+![](/.github/images/create.png)
 
-Com isso em mente, todos os pacotes da homy para UPM devem seguir o padrão. `com.hgs.my-package-name`. Por exemplo, este template é `com.hgs.upm-template`.
+2) Configure the `FloatPointAsset` as your like.
+![](/.github/images/scriptable.png)
 
-Este nome deve ser especificado em `name` no **package.json**.
+3) Refer `FloatPointAsset` created, in you code like this:
 
-**ATENÇÃO** O nome do package junto e nome do repositório não podem ser alterados! Caso isso aconteça outros packages ou projetos perderão a referencia.
+```cs
+using HGS.FloatPoint
 
-Além do campo `name` existe outro campo chamado `displayName` este pode ser alterado sempre que necessário, este nome aparecerá na janela do Unity Package Manager.
+public class Unit: MonoBehaviour
+{
+  [SerializeField] FloatPointAsset floatPoint;
+  [SerializeField] int health = 100;
+  [SerializeField] Color criticalColor;
+  [SerializeField] Color healColor;
+  [SerializeField] Color damageColor;
 
-## Convenção de namespace
-Para isolar os assets de outros scripts isolamos todos no namespace do package `HGS.<package-name>`. Por exemplo, neste package de template usamos `HGS.Template`.
+  private void Spawn()
+  {
+    var value = UnityEngine.Random.Range(-200, 100);
 
-## Convenção de Assembly
-Cada pasta na raiz do package precisa de um AssemblyDefinition, por tanto utilizamos a convenção `HGS.<pacakge-name>.<folder-name>`. Por exemplo, neste projeto possuirmos a pasta Runtime, onde o Assembly é `HGS.Template.Runtime`.
+    if (value < -100)
+    {
+      floatPoint.Show($"<sprite=1 tint=1> {Mathf.Abs(value)}", transform, criticalColor, 4);
+    }
+    else if (value < 0)
+    {
+      floatPoint.Show($"<sprite=0 tint=1> {Mathf.Abs(value)}", transform, damageColor, 3);
+    }
+    else
+    {
+      floatPoint.Show($"<sprite=2 tint=1> {Mathf.Abs(value)}", transform, healColor, 3);
+    }
+  }
+}
+```
+
+4) Result
+
+![](/.github/images/showcase.gif)
+
+## Installation
+
+OpenUPM:
+
+`openupm add com.hgs.hgs-unity-float-point-system`
+
+Package Manager:
+
+`https://github.com/homy-game-studio/hgs-unity-hgs-unity-float-point-system.git#upm`
+
+Or specify version:
+
+`https://github.com/homy-game-studio/hgs-unity-hgs-unity-float-point-system.git#1.0.0`
+
+# Samples
+
+You can see all samples directly in **Package Manager** window.
+
+# Contrib
+
+If you found any bugs, have any suggestions or questions, please create an issue on github. If you want to contribute code, fork the project and follow the best practices below, and make a pull request.
+
+## Namespace Convention
+
+To avoid script collisions, all scripts of this package is covered by `HGS.FloatPoint` namespace.
 
 ## Branchs
-Todos os packages devem possuir duas branchs reservadas.:
 
-- `master` -> Aqui guardamos todo material do projeto.
-- `upm` -> Aqui mantemos uma copia do package que se encontra na pasta `Assets/Package`.
+- `master` -> Keeps the unity project to development purposes.
+- `upm` -> Copy of folder content `Assets/Package` to release after pull request in `master`.
 
-Sempre que um merge é feito na branch `unity`, o script de CI  irá criar uma copia da subpasta `Assets/Package` automaticamente na branch `upm`. Portanto é importante que exista uma pasta chamada `Package` dentro de `Assets` para o deploy ocorra com sucesso. 
+Whenever a change is detected on the `master` branch, CI gets the contents of `Assets/Package`, and pushes in `upm` branch.
 
-## Alterando versões de um package
-Utilizamos o plugin [semantic-release](https://github.com/semantic-release/semantic-release) para facilitar o sistema de release e versionamento, portanto, sempre inicie um repositorio na versão 0.0.0, pois este será alterado automaticamente conforme o uso.
+## Commit Convention
 
-Para utilizar o semantic-relase, temos utilizar a seguinte convenção se commits.:
+This package uses [semantic-release](https://github.com/semantic-release/semantic-release) to facilitate the release and versioning system. Please use angular commit convention:
 
 ```
 <type>(<scope>): <short summary>
@@ -44,7 +96,7 @@ Para utilizar o semantic-relase, temos utilizar a seguinte convenção se commit
   └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 ```
 
-`Type`.: 
+`Type`.:
 
 - build: Changes that affect the build system or external dependencies (example scopes: package system)
 - ci: Changes to our CI configuration files and scripts (example scopes: Circle, - BrowserStack, SauceLabs)
