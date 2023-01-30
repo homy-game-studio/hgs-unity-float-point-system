@@ -1,10 +1,8 @@
 {
-    "name": "HGS.FloatPointSystem.Runtime",
+    "name": "HGS.FloatPoint.Runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:b85a9b696dea92b4f9d0efe8b3f0e5b7",
-        "GUID:6055be8ebefd69e48b49212b09b47b2f",
-        "GUID:c6b6065d38014fe08566896e5b647a62"
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
