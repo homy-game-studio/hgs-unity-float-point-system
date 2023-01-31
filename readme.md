@@ -57,11 +57,11 @@ OpenUPM:
 
 Package Manager:
 
-`https://github.com/homy-game-studio/hgs-unity-hgs-unity-float-point-system.git#upm`
+`https://github.com/homy-game-studio/hgs-unity-float-point-system.git#upm`
 
 Or specify version:
 
-`https://github.com/homy-game-studio/hgs-unity-hgs-unity-float-point-system.git#1.0.0`
+`https://github.com/homy-game-studio/hgs-unity-float-point-system.git#1.0.0`
 
 # Samples
 
