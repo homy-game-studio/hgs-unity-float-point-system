@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/homy-game-studio/hgs-unity-float-point-system/compare/v2.1.0...v2.1.1) (2023-02-05)
+
+
+### Bug Fixes
+
+* Editor assembly crash in build ([d194ff4](https://github.com/homy-game-studio/hgs-unity-float-point-system/commit/d194ff4236f22647895fa25d688772affe36caa9))
+
 # [2.1.0](https://github.com/homy-game-studio/hgs-unity-float-point-system/compare/v2.0.0...v2.1.0) (2023-01-30)
 
 
